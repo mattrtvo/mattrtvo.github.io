@@ -1,0 +1,56 @@
+style.css>
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background: #0cebeb;
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+
+
+
+
+}
+
+.form{
+    width: 500px;
+    padding: 6px;   
+
+
+
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 6px 0px;
+
+
+
+}
+
+#btt{
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
+
+
+
+}
