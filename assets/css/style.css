@@ -69,7 +69,7 @@ h2{
     padding: 20px 0;
 }
 .photo img{
-    position: absolute;
+   /* position: absolute;*/
     top: 0;
     bottom: 0;
     left: 0;
@@ -505,7 +505,7 @@ footer{
     background: url(./footer.jpg) 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
-    padding: 160px 50px 5 50px;
+    padding: 150px 50px 5 50px;
 }       
 footer h3 {
     padding: 0 0 60px 0;
@@ -525,11 +525,69 @@ footer h3 {
     z-index: -1 !important;
     border-radius: 50%;
 }
-.network:hover {
+.network:hover, textarea:hover, input:hover, .form-button:hover {
     background-color: #b3aca7;
     transition: all 0.3s ease-in-out;
     color: #e2dedb;
 }
+.form-container {
+    padding: 20px;
+}
+.reused_form {
+    position: relative;
+    margin: 50px auto;
+}
+input{
+    font-size: 0.85em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+}
+.form-button{
+    background: transparent;
+    border: solid 1px #b3aca7;
+    padding: 20px 75px;
+    margin: 14px 0 -20px;
+}
+.form-container h4{
+    color: red;
+    border: 1px solid red;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px 15px 8px 15px;
+    box-shadow: 0 0 5px red;
+}
+#success_message{
+    color: green;
+    border: 1px solid green;
+    max-width: 400px;
+    margin: 150px auto;
+    box-shadow: 0 0 5px green;
+}
+
+textarea{
+    width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    resize: none;
+}
+input::placeholder, textarea::placeholder, input:focus::placeholder, textarea:focus::placeholder{
+    color: #aca49c;
+}
+input:hover::placeholder, textarea::placeholder, input:hover:focus::placeholder, textarea:hover::placeholder{
+    color: #e2dedb;
+}
+
 .arrow {
     margin: -20 auto;
     padding-top: 15px;
@@ -566,6 +624,73 @@ footer p {
 
 }
 
+/**************media queries **************/
+
+@media screen and (max-width: 900px){
+    .info h5, .typed {
+        font-size: 0.9em;
+    }
+    #langages{
+        margin-left: 1%;
+    }
+    #formation{
+        margin-right: 1%;
+    }
+    .network{
+        font-size: 2em;
+        padding: 10x 20px;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    .navbar{
+        display: none !important;
+    }
+    .fixed-top{
+        position: unset !important;
+    }
+    h1, h2{
+        font-size: 2em;
+    }
+    #Langages{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #formation{
+        margin: 210px 0 0 10%;
+        width: 80%;
+        float: none;
+        display: block;
+    }
+    .counter-value{
+        font-size: 1em;
+    }
+    .data-span{
+        font-size: 8em;
+    }
+    #parcours {
+        margin-top: -50px;
+    }
+    .legende p{
+        display: none;
+    }
+    #other-skills h3, #hobbies h3, footer h3{
+        font-size: 2em;
+    }
+    .cloud{
+        font-size: 1.5em;
+    }
+    .flip-box-back p{
+        padding: 10px 0px;
+    }
+    .network{
+        font-size: 1em;
+        padding: 20px;
+    }
+    input, textarea {
+        width: 300px;
+    }
+}
 
 
 
