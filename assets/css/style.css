@@ -36,7 +36,7 @@ li{
 }
 header{
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     background: url(./header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
 }
@@ -381,8 +381,8 @@ header .button:hover a {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border: transparent;
 }
 .btn-twitter{
@@ -395,8 +395,8 @@ header .button:hover a {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border: transparent;
 }
 .fleche{
@@ -409,8 +409,8 @@ header .button:hover a {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border: transparent;
 
 }
@@ -518,7 +518,7 @@ footer h3 {
     max-width: 60%;
 }
 .network {
-    font-size: 4em;
+  /*   font-size: 1em; */
     border: 1px solid #b3aca7;
     padding: 30px 45px;
     color: #726659;
@@ -621,6 +621,7 @@ input:hover::placeholder, textarea::placeholder, input:hover:focus::placeholder,
 footer p {
     font-size: 0.9em;
     letter-spacing: 0.3em;
+    text-align: end;
 
 }
 
@@ -684,13 +685,42 @@ footer p {
         padding: 10px 0px;
     }
     .network{
-        font-size: 1em;
+        font-size: 2em;
         padding: 20px;
     }
     input, textarea {
         width: 300px;
     }
 }
+
+@media screen and(max-width: 520px){
+    h1{
+        padding-top: 20px;
+    }
+    h3 {
+        font-size: 1em !important;
+    }
+    #fcc, #occ{
+        padding: 50px 0 0 0;
+    }
+    .projet:nth-child(2), .projet:nth-child(3){
+        margin-left: 0;
+    }
+    .legende{
+        opacity: 1;
+    }
+    #other-skills {
+        display: none;
+    }
+    .flip-box-back p {
+        font-size: 0.7em;
+    }
+    #hobbies{
+        margin-top: -30px;
+    }
+
+}
+
 
 
 
