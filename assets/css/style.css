@@ -69,15 +69,6 @@ h2{
     padding: 20px 0;
 }
 .photo img{
-    border: 5px solid #b3aca7;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: auto;
-    max-width: 90%;
     border-radius: 3px;
     box-shadow: 0 0 4px #111;
 }
@@ -218,10 +209,6 @@ header .button:hover a {
 }
 
    /*PORTFOLIO*/
-
-
-
-
 
 #portfolio {
     margin: 100px 2% 0 2%;
