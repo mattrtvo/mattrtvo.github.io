@@ -24,7 +24,7 @@ window.addEventListener('scroll', function(){
   /* var typed = new Typed('.element', options); */
   var typed = new Typed('.typed', {
     strings: ["Bonjour à tous et à toutes, je me présente, je m'appelle Matt Colombin, j'ai 17 ans, je suis en terminal SN option RISC", "Après avoir trouvé un stage au sein du siège d'Unibail Rodamco Westfiel","j'ai découvert le développement WEB.","Ainsi, j'ai commencé une formation de Développement WEB, je me suis formé en Autodidacte grâce à plusieurs sites web dont (W3School, freecodecamp.)","Je me suis découvert une passion, celle de coder!"],
-    typeSpeed: 20,
+    typeSpeed: 40,
   }); 
 
 
